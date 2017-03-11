@@ -54,3 +54,15 @@ img {
 h3 {
 	margin: 0;
 }
+
+/* Design Icon Ajout Panier */
+
+i
+{
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #888;
+    padding: 5%;
+    font-size: 40px!important;
+    background-color: #84c24a;
+    color: white;
+}
