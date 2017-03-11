@@ -31,12 +31,8 @@ footer {
     border-right: 748px solid white;
 }
 
-.separator-oblique {
-    text-align: right;
-    padding-right: 10%;
-    z-index: 99;
-    position: relative;	
-}
+
+
 
 /* Design Bloc Produit */
 
@@ -147,9 +143,9 @@ i.fa-star-o {
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
-	i.fa-cart-plus {top: 32%;}
+	i.fa-cart-plus {top: 27%;}
 }
 
 @media only screen and (min-width: 1200px) {
-	i.fa-cart-plus {top: 26%;}
+	i.fa-cart-plus {top: 21%;}
 }
