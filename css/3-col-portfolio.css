@@ -43,6 +43,13 @@ img {
 .portfolio-item {
 	padding: 0;
 	box-shadow: 0 0 25px #b1b1b1;
+	margin: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+	.col-md-4 {
+	    width: calc(33.333333333% - 10%);
+	}
 }
 
 i.fa-cart-plus {
@@ -112,7 +119,7 @@ i.fa-star-o {
 /* Responsive Position Icon Ajout Panier */
 
 @media only screen and (max-width: 320px) {
-	i.fa-cart-plus {top: 32%;}
+	i.fa-cart-plus {top: 29%;}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
@@ -120,29 +127,25 @@ i.fa-star-o {
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
-	i.fa-cart-plus {top: 24%;}
+	i.fa-cart-plus {top: 22%;}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 601px) {
-	i.fa-cart-plus {top: 14%;}
+	i.fa-cart-plus {top: 15%;}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 640px) {
-	i.fa-cart-plus {top: 5%;}
+	i.fa-cart-plus {top: 8%;}
 }
 
-@media only screen and (min-width: 640px) and (max-width: 906px) {
-	i.fa-cart-plus {top: 0%;}
-}
-
-@media only screen and (min-width: 906px) and (max-width: 991px) {
+@media only screen and (min-width: 640px) and (max-width: 991px) {
 	i.fa-cart-plus {top: 0%;}
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
-	i.fa-cart-plus {top: 27%;}
+	i.fa-cart-plus {top: 33%;}
 }
 
 @media only screen and (min-width: 1200px) {
-	i.fa-cart-plus {top: 21%;}
+	i.fa-cart-plus {top: 29%;}
 }
