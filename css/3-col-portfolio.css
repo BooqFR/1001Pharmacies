@@ -35,6 +35,13 @@ footer {
 	position: relative;
 }
 
+.separator-oblique {
+    text-align: right;
+    padding-right: 10%;
+    z-index: 99;
+    position: relative;	
+}
+
 /* Design Bloc Produit */
 
 .bloc-text {
@@ -47,6 +54,11 @@ img {
 
 .portfolio-item {
 	padding: 0;
+}
+
+i {
+	position: absolute;
+    right: 13%;
 }
 
 /* Design Bloc Description */
@@ -65,4 +77,42 @@ i
     font-size: 40px!important;
     background-color: #84c24a;
     color: white;
+}
+
+/* Responsive Position Icon Ajout Panier */
+
+@media only screen and (max-width: 320px) {
+	i {top: 32%;}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	i {top: 28%;}
+}
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+	i {top: 24%;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 601px) {
+	i {top: 14%;}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 640px) {
+	i {top: 5%;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 906px) {
+	i {top: 0%;}
+}
+
+@media only screen and (min-width: 906px) and (max-width: 991px) {
+	i {top: 0%;}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+	i {top: 32%;}
+}
+
+@media only screen and (min-width: 1200px) {
+	i {top: 26%;}
 }
