@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/* Base Boostrap */
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
@@ -15,4 +11,46 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+
+/* Structure Bloc Produit */
+
+
+.description {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    top: -150px;
+}
+
+.description:before {
+    content: "";
+    display: block;
+    border-top: 200px solid transparent;
+    border-right: 748px solid white;
+}
+
+.description {
+	position: relative;
+}
+
+/* Design Bloc Produit */
+
+.bloc-text {
+	background-color: white;
+}
+
+img {
+	margin: 0 auto;
+}
+
+.portfolio-item {
+	padding: 0;
+}
+
+/* Design Bloc Description */
+
+h3 {
+	margin: 0;
 }
