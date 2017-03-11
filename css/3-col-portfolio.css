@@ -67,9 +67,44 @@ h3 {
 	margin: 0;
 }
 
+h3 a {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p.price {
+    font-weight: 700;
+    font-size: 2.2em;
+    padding: 18px 0;
+}
+
+p.price:before,
+p.price:after {
+	content:'';
+	display:inline-block;
+	vertical-align: middle;
+	width: 4rem;
+	height: 1px;
+	background: #c8c7c7;
+}
+
+p.price:before {
+	margin-right: 1.3rem;
+}
+
+p.price:after {
+	margin-left: 1.3rem;
+}
+
 /* Design Icon Ajout Panier */
 
-i {
+i.fa-cart-plus {
     border-radius: 50%;
     box-shadow: 0px 0px 2px #888;
     padding: 5%;
@@ -81,37 +116,37 @@ i {
 /* Responsive Position Icon Ajout Panier */
 
 @media only screen and (max-width: 320px) {
-	i {top: 32%;}
+	i.fa-cart-plus {top: 32%;}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
-	i {top: 28%;}
+	i.fa-cart-plus {top: 28%;}
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
-	i {top: 24%;}
+	i.fa-cart-plus {top: 24%;}
 }
 
 @media only screen and (min-width: 480px) and (max-width: 601px) {
-	i {top: 14%;}
+	i.fa-cart-plus {top: 14%;}
 }
 
 @media only screen and (min-width: 601px) and (max-width: 640px) {
-	i {top: 5%;}
+	i.fa-cart-plus {top: 5%;}
 }
 
 @media only screen and (min-width: 640px) and (max-width: 906px) {
-	i {top: 0%;}
+	i.fa-cart-plus {top: 0%;}
 }
 
 @media only screen and (min-width: 906px) and (max-width: 991px) {
-	i {top: 0%;}
+	i.fa-cart-plus {top: 0%;}
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1200px) {
-	i {top: 32%;}
+	i.fa-cart-plus {top: 32%;}
 }
 
 @media only screen and (min-width: 1200px) {
-	i {top: 26%;}
+	i.fa-cart-plus {top: 26%;}
 }
