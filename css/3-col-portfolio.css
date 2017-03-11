@@ -56,7 +56,7 @@ img {
 	padding: 0;
 }
 
-i {
+i.fa-cart-plus {
 	position: absolute;
     right: 13%;
 }
@@ -81,7 +81,7 @@ a:hover {
 p.price {
     font-weight: 700;
     font-size: 2.2em;
-    padding: 18px 0;
+    padding: 18px 0 0;
 }
 
 p.price:before,
@@ -111,6 +111,13 @@ i.fa-cart-plus {
     font-size: 40px!important;
     background-color: #84c24a;
     color: white;
+}
+
+i.fa-star,
+i.fa-star-o {
+	color: #f4b40d;
+	padding-bottom: 20px;
+    font-size: 16px;
 }
 
 /* Responsive Position Icon Ajout Panier */
