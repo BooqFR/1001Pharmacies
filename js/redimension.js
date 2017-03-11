@@ -6,3 +6,11 @@ $( document ).ready(function() {
     var TaillePortfolio = TailleImage + (TailleDescription - 150);
     $('.portfolio-item').height(TaillePortfolio);
 });
+
+
+$(window).on('resize', function(){
+    var TailleImage = $('.img-responsive').height();
+    var TailleDescription = $('.description').height();
+    var TaillePortfolio = TailleImage + (TailleDescription - 150);
+    $('.portfolio-item').height(TaillePortfolio);
+});
