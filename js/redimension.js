@@ -1,16 +1,1 @@
-/*Fonction de redimensionnement des colonnes portfolio*/
-
-$( document ).ready(function() {
-    var TailleImage = $('.img-responsive').height();
-    var TailleDescription = $('.description').height();
-    var TaillePortfolio = TailleImage + (TailleDescription - 150);
-    $('.portfolio-item').height(TaillePortfolio);
-});
-
-
-$(window).on('resize', function(){
-    var TailleImage = $('.img-responsive').height();
-    var TailleDescription = $('.description').height();
-    var TaillePortfolio = TailleImage + (TailleDescription - 150);
-    $('.portfolio-item').height(TaillePortfolio);
-});
+$(document).ready(function(){var a=$(".img-responsive").height(),b=$(".description").height(),c=a+(b-150);$(".portfolio-item").height(c)}),$(window).on("resize",function(){var a=$(".img-responsive").height(),b=$(".description").height(),c=a+(b-150);$(".portfolio-item").height(c)});
